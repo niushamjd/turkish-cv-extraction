@@ -218,3 +218,28 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# assistant / local tooling
+CLAUDE.md
+.claude/
+.claude*
+*.claude.md
+
+# secrets
+.env
+*.key
+
+# data
+data/real/
+data/synthetic/**/*.pdf
+data/synthetic/**/*.png
+models/
+adapters/
+*.safetensors
+
+# python
+__pycache__/
+*.pyc
+.venv/
+.ipynb_checkpoints/
+.DS_Store
